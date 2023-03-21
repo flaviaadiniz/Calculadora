@@ -1,2 +1,6 @@
-package model;public class QuadradoTest {
+package model;
+
+public class QuadradoTest {
+
+
 }
