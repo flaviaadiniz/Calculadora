@@ -1,6 +1,6 @@
 ## Calculadora
 
-#### Atividade realizada para a disciplina de Testes Automatizados do programa &lt;Dev>a - Let's Code + B3
+### Atividade realizada para a disciplina de Testes Automatizados do programa &lt;Dev>a - Let's Code + B3
 
 Parte 01 - Utilizando o código do link, você deve criar no mínimo 1 teste para cada método existente.
 
