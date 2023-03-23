@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a62693-6294-4e2f-a06c-e3e7699a7659" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="06a62693-6294-4e2f-a06c-e3e7699a7659" name="Changes" comment="Adicionei validações nos métodos de calcular área de Quadrado e Triângulo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Quadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculadoraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculadoraService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/QuadradoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/QuadradoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/TrianguloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/TrianguloTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/CalculadoraServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CalculadoraServiceTest.java" afterDir="false" />
@@ -39,18 +34,108 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.CalculadoraServiceTest">
+    <configuration name="CalculadoraServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraServiceTest.deveDividirCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
+      <option name="METHOD_NAME" value="deveDividirCorretamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraServiceTest.deveSomarCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
+      <option name="METHOD_NAME" value="deveSomarCorretamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraServiceTest.deveSubtrairCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
+      <option name="METHOD_NAME" value="deveSubtrairCorretamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrianguloTest.deveCriarUmTriangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.TrianguloTest" />
+      <option name="METHOD_NAME" value="deveCriarUmTriangulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculadoraServiceTest" />
+        <item itemvalue="JUnit.CalculadoraServiceTest.deveDividirCorretamente" />
+        <item itemvalue="JUnit.CalculadoraServiceTest.deveSubtrairCorretamente" />
+        <item itemvalue="JUnit.CalculadoraServiceTest.deveSomarCorretamente" />
+        <item itemvalue="JUnit.TrianguloTest.deveCriarUmTriangulo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,8 +144,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679350291006</updated>
-      <workItem from="1679350295949" duration="5360000" />
+      <workItem from="1679350295949" duration="5877000" />
+      <workItem from="1679399295158" duration="2052000" />
+      <workItem from="1679485488880" duration="2786000" />
+      <workItem from="1679508826081" duration="3146000" />
     </task>
+    <task id="LOCAL-00001" summary="Mudei parâmetros de Quadrado e Triângulo para wrapper class Double">
+      <created>1679360766039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679360766039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adicionei dependência do JUnit 4">
+      <created>1679360798376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679360798376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adicionei validações nos métodos de calcular área de Quadrado e Triângulo">
+      <created>1679360849923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679360849923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +186,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mudei parâmetros de Quadrado e Triângulo para wrapper class Double" />
+    <MESSAGE value="Adicionei dependência do JUnit 4" />
+    <MESSAGE value="Adicionei validações nos métodos de calcular área de Quadrado e Triângulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionei validações nos métodos de calcular área de Quadrado e Triângulo" />
   </component>
 </project>
