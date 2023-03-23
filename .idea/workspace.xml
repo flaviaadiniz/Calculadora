@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a62693-6294-4e2f-a06c-e3e7699a7659" name="Changes" comment="Adição dos testes para soma, subtração, divisão e multiplicação." />
+    <list default="true" id="06a62693-6294-4e2f-a06c-e3e7699a7659" name="Changes" comment="Adição dos testes para soma, subtração, divisão e multiplicação.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculadoraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculadoraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/CalculadoraServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CalculadoraServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +46,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CalculadoraServiceTest">
+  <component name="RunManager" selected="JUnit.CalculadoraServiceTest.deveCalcularAreaDoQuadradoCorretamente">
     <configuration name="CalculadoraServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculadora" />
       <extension name="coverage">
@@ -53,6 +58,38 @@
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraServiceTest.deveCalcularAreaDoQuadradoCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
+      <option name="METHOD_NAME" value="deveCalcularAreaDoQuadradoCorretamente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraServiceTest.deveCalcularAreaDoTrianguloCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
+      <option name="METHOD_NAME" value="deveCalcularAreaDoTrianguloCorretamente" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraServiceTest.deveSomarCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraServiceTest.nãoDeveFazerDivisaoPorZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculadora" />
       <extension name="coverage">
         <pattern>
@@ -83,39 +120,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
-      <option name="METHOD_NAME" value="deveSomarCorretamente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraServiceTest.deveSubtrairCorretamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculadora" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.CalculadoraServiceTest" />
-      <option name="METHOD_NAME" value="deveSubtrairCorretamente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrianguloTest.deveCriarUmTriangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculadora" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.TrianguloTest" />
-      <option name="METHOD_NAME" value="deveCriarUmTriangulo" />
+      <option name="METHOD_NAME" value="nãoDeveFazerDivisaoPorZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraServiceTest.deveCalcularAreaDoQuadradoCorretamente" />
+        <item itemvalue="JUnit.CalculadoraServiceTest.deveCalcularAreaDoTrianguloCorretamente" />
+        <item itemvalue="JUnit.CalculadoraServiceTest.nãoDeveFazerDivisaoPorZero" />
         <item itemvalue="JUnit.CalculadoraServiceTest" />
         <item itemvalue="JUnit.CalculadoraServiceTest.deveDividirCorretamente" />
-        <item itemvalue="JUnit.CalculadoraServiceTest.deveSubtrairCorretamente" />
-        <item itemvalue="JUnit.CalculadoraServiceTest.deveSomarCorretamente" />
-        <item itemvalue="JUnit.TrianguloTest.deveCriarUmTriangulo" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +147,8 @@
       <workItem from="1679350295949" duration="5877000" />
       <workItem from="1679399295158" duration="2052000" />
       <workItem from="1679485488880" duration="2786000" />
-      <workItem from="1679508826081" duration="3473000" />
+      <workItem from="1679508826081" duration="3875000" />
+      <workItem from="1679587667809" duration="3464000" />
     </task>
     <task id="LOCAL-00001" summary="Mudei parâmetros de Quadrado e Triângulo para wrapper class Double">
       <created>1679360766039</created>
@@ -172,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679534759466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adição dos testes para soma, subtração, divisão e multiplicação.">
+      <created>1679534968162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679534968162</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

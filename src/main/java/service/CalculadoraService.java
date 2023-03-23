@@ -27,7 +27,11 @@ public class CalculadoraService {
     }
 
     public int dividir(int a, int b) {
-        return a/b;
+        if (b != 0) {
+            return a/b;
+        } else {
+            throw new IllegalArgumentException();
+        }
     }
 
     public int multiplicar(int a, int b) {

@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Triangulo {
 
     private Double base;
@@ -26,4 +28,17 @@ public class Triangulo {
         this.altura = altura;
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Triangulo triangulo = (Triangulo) o;
+        return Objects.equals(base, triangulo.base) && Objects.equals(altura, triangulo.altura);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(base, altura);
+    }
 }
