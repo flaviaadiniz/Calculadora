@@ -12,16 +12,12 @@ public class CalculadoraServiceTest {
     private CalculadoraService calculadoraService;
     private int a;
     private int b;
-    private Double c;
-    private Double d;
 
     @Before
     public void setUp() {
         calculadoraService = new CalculadoraService();
         a = 4;
         b = 2;
-        c = 3.0;
-        d = 5.0;
     }
 
     @Test
@@ -76,7 +72,7 @@ public class CalculadoraServiceTest {
     @Test
     public void deveCalcularAreaDoTrianguloCorretamente() {
         //GIVEN: um triângulo com base igual a 3.0 e altura igual a 5.0
-        Triangulo triangulo = new Triangulo(c, d);
+        Triangulo triangulo = new Triangulo(3.0, 5.0);
 
         //WHEN: a área é calculada
         Double areaTriangulo = calculadoraService.calcularAreaTriangulo(triangulo);
@@ -89,7 +85,7 @@ public class CalculadoraServiceTest {
     @Test
     public void deveCalcularAreaDoQuadradoCorretamente() {
         //GIVEN: um quadrado com lado igual a 3.0
-        Quadrado quadrado = new Quadrado(c);
+        Quadrado quadrado = new Quadrado(3.0);
 
         //WHEN: a área é calculada
         Double areaQuadrado = calculadoraService.calcularAreaQuadrado(quadrado);
@@ -99,6 +95,57 @@ public class CalculadoraServiceTest {
 
     }
 
+    @Test
+    public void deveRetornarOTrianguloMenor() {
+        //GIVEN: dois triângulos de áreas diferentes
+        Triangulo triangulo1 = new Triangulo(3.0, 5.0);
+        Triangulo triangulo2 = new Triangulo(4.0, 6.0);
 
+        //WHEN: método para comparar dois triângulos e retornar o menor é chamado
+        Triangulo trianguloMenor = calculadoraService.trianguloDeMenorArea(triangulo1, triangulo2);
+
+        //THEN: deve retornar o triângulo com menor área (neste caso, o triângulo 1)
+        assertEquals(triangulo1, trianguloMenor);
+    }
+
+    @Test
+    public void deveRetornarOQuadradoMenor() {
+        //GIVEN: dois quadrados de áreas diferentes
+        Quadrado quadrado1 = new Quadrado(3.0);
+        Quadrado quadrado2 = new Quadrado(4.0);
+
+        //WHEN: método para comparar dois quadrados e retornar o menor é chamado
+        Quadrado quadradoMenor = calculadoraService.quadradoDeMenorArea(quadrado1, quadrado2);
+
+        //THEN: deve retornar o quadrado com menor área (neste caso, o quadrado 1)
+        assertFalse(quadradoMenor == quadrado2);
+
+    }
+
+    @Test
+    public void aoCompararDoisTriangulosDeMesmaAreaDeveRetornarNulo() {
+        //GIVEN: dois triângulos de áreas diferentes
+        Triangulo triangulo1 = new Triangulo(3.0, 5.0);
+        Triangulo triangulo2 = new Triangulo(3.0, 5.0);
+
+        //WHEN: método para comparar dois triângulos e retornar o menor é chamado
+        Triangulo trianguloMenor = calculadoraService.trianguloDeMenorArea(triangulo1, triangulo2);
+
+        //THEN: deve retornar null
+        assertNull(trianguloMenor);
+    }
+
+    @Test
+    public void aoCompararDoisQuadradosDeMesmaAreaDeveRetornarNulo() {
+        //GIVEN: dois quadrados de áreas diferentes
+        Quadrado quadrado1 = new Quadrado(3.0);
+        Quadrado quadrado2 = new Quadrado(3.0);
+
+        //WHEN: método para comparar dois quadrados e retornar o menor é chamado
+        Quadrado quadradoMenor = calculadoraService.quadradoDeMenorArea(quadrado1, quadrado2);
+
+        //THEN: deve retornar null
+        assertNull(quadradoMenor);
+    }
 
 }
