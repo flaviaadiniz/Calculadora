@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a62693-6294-4e2f-a06c-e3e7699a7659" name="Changes" comment="Adicionei validações nos métodos de calcular área de Quadrado e Triângulo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/QuadradoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/QuadradoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/TrianguloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/TrianguloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/CalculadoraServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CalculadoraServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="06a62693-6294-4e2f-a06c-e3e7699a7659" name="Changes" comment="Adição dos testes para soma, subtração, divisão e multiplicação." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +142,7 @@
       <workItem from="1679350295949" duration="5877000" />
       <workItem from="1679399295158" duration="2052000" />
       <workItem from="1679485488880" duration="2786000" />
-      <workItem from="1679508826081" duration="3146000" />
+      <workItem from="1679508826081" duration="3473000" />
     </task>
     <task id="LOCAL-00001" summary="Mudei parâmetros de Quadrado e Triângulo para wrapper class Double">
       <created>1679360766039</created>
@@ -170,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679360849923</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adição dos testes para soma, subtração, divisão e multiplicação.">
+      <created>1679534759466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679534759466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +193,7 @@
     <MESSAGE value="Mudei parâmetros de Quadrado e Triângulo para wrapper class Double" />
     <MESSAGE value="Adicionei dependência do JUnit 4" />
     <MESSAGE value="Adicionei validações nos métodos de calcular área de Quadrado e Triângulo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionei validações nos métodos de calcular área de Quadrado e Triângulo" />
+    <MESSAGE value="Adição dos testes para soma, subtração, divisão e multiplicação." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição dos testes para soma, subtração, divisão e multiplicação." />
   </component>
 </project>
