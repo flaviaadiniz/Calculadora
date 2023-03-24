@@ -65,7 +65,7 @@ public class CalculadoraServiceTest {
         //WHEN: método dividir é chamado com b (divisor) igual a zero
 
         //THEN: deve lançar exceção
-        assertThrows(IllegalArgumentException.class, () -> calculadoraService.dividir(a, b));
+        assertThrows(ArithmeticException.class, () -> calculadoraService.dividir(a, b));
     }
 
 
